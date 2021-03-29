@@ -5,6 +5,7 @@ import Contador from "./components/Contador";
 import Ternario from "./components/Ternario";
 import Lista from "./components/Lista";
 import Objectos from "./components/Objectos";
+import Form from "./components/Form";
 function App() {
   return (
     <div className="app mt-5">
@@ -74,6 +75,7 @@ function App() {
                     <Lista />
                     <hr/>
                     <Objectos />
+                    <Form/>
                   </div>
                 </div>
               </div>
